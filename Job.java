@@ -4,6 +4,9 @@ public class Job implements Runnable {
     Job(int jobNumber) {
         this.jobNumber = jobNumber;
     }
+    public static void main(String[] args) {
+        
+    }
 
     public void run() {
         // Undertake required work, here we will emulate it by sleeping for a period
@@ -19,3 +22,5 @@ public class Job implements Runnable {
     }
 
 }
+
+// random comment
